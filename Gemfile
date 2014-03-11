@@ -46,4 +46,5 @@ gem 'faker'
 # gem 'debugger'
 
 gem 'devise'
+gem 'cancan'
 
