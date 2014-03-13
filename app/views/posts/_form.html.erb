@@ -24,7 +24,7 @@
   <%= control_group_tag(post.errors[:image]) do %>
     <%= f.label :image, class: 'control-label' %>
     <div class="controls">
-      <%= f.text_field :image %>
+      <%= f.file_field :image %>
     </div>
   <% end %>
   <div class="control-group">
